@@ -1,0 +1,384 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ /*Banner section css for ipad*/
+ .navbar-toggler{
+  background-color: #fff !important;
+ }
+ .banner-content{
+    height:70vh;
+  }
+  .banner-content img{
+    width: 160px;
+  }
+  .banner-content h1{
+    font-size: 23px;
+    padding: 20px 0;
+    margin-bottom:0;
+  }
+  .banner-content p{
+    margin-bottom:0;
+    padding: 0;
+    padding: 20px 0;
+  }
+  .banner-form{
+    height: 70vh;
+  }
+  .banner-form .card{
+    margin-left:0;
+  }
+  .s-m-icon ul{
+    margin: 35px auto;
+  }
+  .s-m-icon ul li{
+    margin-left: 16px;
+  }
+  .s-m-icon ul li i{
+    font-size: 42px;
+  }
+  .feature-1{
+    padding:60px 0;
+  }
+  .item-1 h3,.item-2 h3,.item-3 h3 {
+    font-size: 25px !important;
+  }
+  .item-1 p,.item-2 p,.item-3 p{
+    margin: 0;
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+  .sub-list-section{
+    padding:60px 0;
+  }
+  .right-content .r-text {
+    margin: 22px 0;
+}
+.sub-list-section .img-part{
+    display: flex;
+    align-items: center;
+}
+.standard-pic-section {
+    padding: 60px 0;
+}
+.s-p-s-left-section .r-text {
+    margin:0; 
+}
+
+.standard-pic-section .img-part{
+  display:flex;
+  align-items:center;
+}
+.service-1 i {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    border: 2px solid orange;
+    color: orange;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 80px;
+}
+.service-1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.service {
+    padding: 60px 0;
+}
+.service-heaidng {
+    margin-bottom: 30px;
+}
+.ul {
+    margin: 10px auto;
+}
+.pricing-section {
+    padding: 30px 0;
+}
+.pricing-heading {
+    padding:0px 0; 
+}
+.customer-review {
+    padding: 40px 0;
+}
+.user-content{
+  margin-left:40px;
+}
+.user-info .col-md-3 img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+}
+    /*display: flex;
+    align-items: center;*/
+   
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.banner-content {
+    height: 50vh;
+}
+.banner-content img {
+    width: 140px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.banner-content h1 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.banner-content .underline {
+    margin: 10px auto;
+    height: 3px;
+    background: #fff;
+    width: 80px;
+}
+.banner-content p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.banner-btn {
+    padding: 1px 10px;
+    margin: 0px 115px;
+}
+.banner-form {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+}
+.banner-form .card{
+  margin-left: 30px;
+}
+.banner-form .card .card-header h1 {
+  font-size: 18px;
+}
+.s-m-content p {
+    color: #86878b;
+    font-size: 10px;
+}
+.s-m-content h3 {
+    font-size: 14px;
+}
+.s-m-icon {
+    margin: 0px auto;
+}
+.s-m-icon ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.s-m-icon ul li i {
+    font-size: 36px;
+}
+.feature-1{
+  padding: 0px 0px;
+}
+.tab-section ul li{
+  display: inline;
+  padding: 10px 30px;
+}
+.tab-section ul {
+  margin-bottom: 0rem;
+}
+.tab-1 {
+    border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.tab-3 {
+    border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.item-1 p, .item-2 p, .item-3 p {
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0;
+}
+.item-1 h3, .item-2 h3, .item-3 h3 {
+    font-size: 24px;
+    text-align: center;
+}
+.feature-1 button,.feature-2 button,.feature-3 button {
+    padding: 7px 20px;
+    margin: 7px 105px;
+}
+.sub-list-section {
+    padding: 80px 0;
+}
+.right-content .row .col-md-2{
+  width: 20%;
+}
+.right-content .row .col-md-10{
+  width: 70%;
+}
+.right-content h5 {
+    margin: 0px 90px;
+}
+.right-content p{
+  font-size: 12px;
+}
+.col-md-2 a i{
+  margin:20px 0px;
+}
+.standard-pic-section{
+  padding: 50px 0px;
+}
+.s-p-s-left-section h5 {
+  text-align:center;
+}
+.s-p-s-left-section .s-p-s-ul{
+  margin-top: 10px;
+  margin:0px auto;
+}
+.s-p-s-left-section .r-text{
+  font-size: 12px;
+  text-align: center;
+}
+.service{
+  padding: 50px 0px;
+}
+.service-heaidng h1 {
+    font-size: 20px;
+    text-align: center;
+}
+.ul{
+    margin: 5px auto;
+}
+.service-heaidng p{
+  font-size: 14px;
+}
+.service-heaidng {
+    margin-bottom: 25px;
+}
+.service-1 i {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    border: 3px solid orange;
+    color: orange;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 65px;
+}
+.service-1 h2 {
+    font-size: 20px;
+}
+.service-1 p{
+  font-size: 12px;
+}
+.pricing-section {
+  padding:40px 0px;
+}
+.pricing-heading h1 {
+    font-size: 30px;
+}
+.p-h-ul {
+    width: 80px;
+    height: 3px;
+    margin: 7px auto;
+}
+.pricing-heading p {
+    padding: 0px 25px;
+    font-size: 12px;
+}
+.pricing-heading {
+    padding: 0px 0;
+}
+.pricing-table {
+    margin-top: 14px;
+    align-items: flex-end;
+}
+.pricing-table h4 {
+    font-size: 15px;
+}
+.pricing-table .card-body h1 {
+    font-size: 60px;
+}
+.pricing-table .card-footer ul li{
+    font-size: 10px;
+    padding: 5px 0px;
+}
+.card-body {
+  padding:0rem !important;
+}
+.pricing-table .card {
+    margin-bottom: 20px;
+}
+.customer-review{
+  padding:50px;
+}
+.c-r-heading h1 {
+    font-size: 24px;
+}
+.c-r-heading .c-r-ul {
+    width: 80px;
+    height: 2px;
+    margin: 7px auto;
+}
+.c-r-heading p {
+    font-size: 12px;
+}
+.msg-box p{
+  font-size: 12px;
+}
+
+
+
+
+
+}
+
+
+
